@@ -19,7 +19,7 @@ import treeTexture from './assets/images/tree.png';
 import flagTexture from './assets/images/flag.png';
 import "./libs/GLTFLoader.js"
 
-const base = `${location.origin}${location.pathname}`
+const base = import.meta.env.BASE_URL
 const landModel = base+ 'models/land.glb';
 const treeModel = base+ 'models/tree.gltf';
 const bingdundunModel = base+ 'models/bingdwendwen.glb';
