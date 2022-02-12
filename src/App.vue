@@ -19,10 +19,10 @@ import treeTexture from './assets/images/tree.png';
 import flagTexture from './assets/images/flag.png';
 import "./libs/GLTFLoader.js"
 
-const landModel = './models/land.glb';
-const treeModel = './models/tree.gltf';
-const bingdundunModel = './models/bingdwendwen.glb';
-const flagModel = './models/flag.glb';
+const landModel = '../models/land.glb';
+const treeModel = '../models/tree.gltf';
+const bingdundunModel = '../models/bingdwendwen.glb';
+const flagModel = '../models/flag.glb';
 
 
 const loadingProcess = ref<number>(0)
