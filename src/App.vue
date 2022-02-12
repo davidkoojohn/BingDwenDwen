@@ -326,8 +326,8 @@ const initThree = () => {
   }
 
   // 增加点击事件，声明raycaster和mouse变量
-  var raycaster = new THREE.Raycaster();
-  var mouse = new THREE.Vector2();
+  const raycaster = new THREE.Raycaster();
+  const mouse = new THREE.Vector2();
   function onMouseClick(event: MouseEvent) {
     // 通过鼠标点击的位置计算出raycaster所需要的点的位置，以屏幕中心为原点，值的范围为-1到1.
     mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
